@@ -19,6 +19,8 @@ namespace GenericMath
             Console.WriteLine(GenericMath.Min(Liv, Mik));
             Console.WriteLine(GenericMath.Min(Adam, Bob));
             Console.WriteLine(GenericMath.Min(Bob, Adam));
+
+            Console.WriteLine(GenericMath.Min(Liv, Adam, new StudentAgeComparer()));
         }
     }
 }
